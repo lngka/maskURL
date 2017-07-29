@@ -1,1 +1,1 @@
-# maskURL
+# Backend Challenges boilerplate - package.json
