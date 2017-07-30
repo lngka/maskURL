@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Backend Challenges | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.glitch.com/5a174075-5b55-4fb6-9ade-a35feeed6039%2Ffavicon.ico?1501315908184" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+        <header>
+          <h1>maskURL API</h1>
+        </header>
+        <div>
+          <hr>
+            <b>Demo:</b>
+          <form action="/save" method="POST" enctype="url-encoded">
+            <span>Link to mask:</span>
+            <input type="text" name="originalLink" size="55">
+            <input type="submit" value="Get">
+            <br>
+            <span>I wanna be from:</span>
+            <select name="referrer">
+              <option value="noreferrer">No where</option>
+              <option value="https://www.google.de/">https://www.google.de/</option>
+              <option value="https://www.facebook.com/">https://www.facebook.com/</option>
+              <option value="https://www.youtube.com/">https://www.youtube.com/</option>
+              <option value="https://twitter.com/">https://twitter.com/</option>
+            </select>
+          </form>
+        </div>
+      </div>
+   </body>
+
+</html>

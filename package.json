@@ -1,7 +1,10 @@
 {
-  "name": "fcc-learn-npm-package-json",
+  "name": "maskURL",
   "dependencies": {
-    "express": "^4.15.3"
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.4"
   },
   "main": "server.js",
   "scripts": {
